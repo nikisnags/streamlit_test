@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import st.pyplot as plt
 
 # Загрузка данных
 @st.cache
