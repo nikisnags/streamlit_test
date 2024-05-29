@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Загрузка данных
 @st.cache
 def load_data():
-    df = pd.read_csv('data/Products.csv')
+    df = pd.read_csv('Products.csv')
     df.Weight.fillna(df.Weight.mean(), inplace=True)
     df.OutletSize.fillna('Средний', inplace=True)
     return df
