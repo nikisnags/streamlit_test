@@ -1,7 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plttt
+import matplotlib.pyplot as plt
 
 # Загрузка данных
 @st.cache
