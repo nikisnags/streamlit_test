@@ -1,33 +1,7 @@
-import streamlit as st
-import streamlit.components.v1 as stc
-
-import pandas as pandas
-import numpy as np
-from pathlib import Path
-import os
-import time
-from datetime import datetime
-import matplotlib.pyplot as plt
-import matplotlib
-from PIL import Image
-import matplotlib
-matplotlib.use('Agg') # TkAgg
-import seaborn as sns
-import warnings
-warnings.filterwarnings("ignore")
-import base64 
-import altair as alt
-import plotly.express as px
-timestr = time.strftime("%Y%m%d-%H%M%S")		
-from solar_ml import *
-from solar_dsm import *
-
-
-
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plttt
 
 # Загрузка данных
 @st.cache
