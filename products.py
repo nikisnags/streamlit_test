@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pandas as pd
+import io
 
 # Загрузка данных
 @st.cache
